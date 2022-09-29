@@ -1,0 +1,44 @@
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-image: linear-gradient(to bottom, #ff6e7f, #bfe9ff);
+  width: 40%;
+  border-radius: 10px;
+  height: 40%;
+}
+
+.count-heading {
+  font-family: 'Roboto';
+  color: #0f172a;
+}
+
+.count-paragraph {
+  font-family: 'Roboto';
+  color: #334155;
+}
+
+.btn-style {
+  font-family: 'Roboto';
+  color: #1e293b;
+  background-color: #ffffff;
+  padding: 10px;
+  border-radius: 5px;
+  width: 100px;
+}
+
+.paragraph {
+  font-family: 'Roboto';
+  color: #334155;
+  font-size: 10px;
+}
